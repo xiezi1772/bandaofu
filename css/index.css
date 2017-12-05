@@ -1,0 +1,25 @@
+header {
+	background: #ba0101;
+	height: auto;
+}
+header .left{
+	width: 10%;
+	margin: 1.5% 2% 1.5% 5%;
+	overflow: hidden;
+}
+header .left img {
+	width: 100%;
+	height: auto;
+}
+
+header .center {
+	width:70%;
+	font-size: 2em;
+	font-weight: 600;
+	overflow: hidden;
+	color:#fff;
+	/*background:yellow;*/
+}
+header .center span {
+	color: #f6ff00;
+}
