@@ -23,9 +23,9 @@ input,textarea {
 	-webkit-appearance: none;
 }
 body{
-	font-size: 14px;
+	/*font-size: 14px;*/
 	color: #333;
-	font-family: "Microsoft YaHei", sans-serif;
+	font-family: "宋体","微软雅黑","Arial","\5b8b\4f53","sans-serif";
 }
 
 /*reset end*/
