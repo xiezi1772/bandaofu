@@ -20,9 +20,9 @@ header .left img {
 	width: 100%;
 	height: auto;
 }
-header .left span {
+header .left .text {
 	position: absolute;
-	bottom:-2%;
+	bottom:1%;
 	left:0.5%;
 	display: block;
 	border-radius: 20%;
@@ -33,7 +33,7 @@ header .left span {
 	font-size: 2rem;
 	font-weight: 600;
 	color:black;
-	padding: 0.8% 0.3%;
+	padding: 1% 0.1%;
 }
 
 header .center {
