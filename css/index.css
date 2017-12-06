@@ -27,7 +27,9 @@ header .center span {
 }
 
 header .right{
-	width: 23%;
+	width: 11%;
+	margin: 1% 0 0 2%;
+	/*background: yellow;*/
 }
 header .right img {
 	width:100%;
