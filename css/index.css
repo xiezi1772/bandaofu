@@ -3,58 +3,111 @@ body{
 	height: 20000px;
 }
 header {
-	background: #ba0101;
+	width: 100%;
 	height: auto;
 	position: fixed;
 	top:0;
-	left:50%;
-	transform:translateX(-50%); 
+	left:0;
+	z-index: 998;
+}
+header .box {
+	max-width: 750px;
+	min-width: 320px;
+	width:100%;
+	height: auto;
+	margin: 0 auto;
+	background: #ba0101;
+	overflow: hidden;
 }
 
 header .left{
-	width: 10%;
-	margin: 0.9rem 2% 1.5% 5%;
-	overflow: hidden;
+	width: 16%;
+	position: relative;
 }
-header .left img {
+header .weixin-lcon {
+	width: 60%;
+	margin: 0.5rem 2% 3% 30%;
+}
+
+header .left .weixin-lcon img {
 	width: 100%;
 	height: auto;
 }
-header .left .text {
-	position: absolute;
-	bottom:1%;
-	left:0.5%;
-	display: block;
-	border-radius: 20%;
-	background: #eeacad;
-	opacity:0.7;
-	/*line-height: 2.5rem;*/
-	text-align: center;
-	font-size: 2rem;
-	font-weight: 600;
-	color:black;
-	padding: 1% 0.1%;
-}
 
 header .center {
-	width:65%;
+	width:54%;
+}
+header .center i{
+	font-style: normal;
+	color: #f6ff00;
+}
+header .center span{
+	display: block;
 	font-size: 2rem;
 	font-weight: 600;
 	color:#fff;
 	margin-top: 2%;
-	line-height: 2.5rem;
-	overflow: hidden;
-}
-header .center span {
-	color: #f6ff00;
+	line-height: 150%;
 }
 
 header .right{
-	width: 11%;
-	margin: 0.8rem 0 0 2%;
-	/*background: yellow;*/
+	width: 30%;
+}
+header .qrcode {
+	width: 35%;
+	margin: 0.5rem 0 1% 15%;
 }
 header .right img {
 	width:100%;
 }
 /*top end*/
+
+/*logo start*/
+#logo{
+	position: relative;
+	z-index: 1;
+	width: 100%;
+}
+#logo img {
+	width: 100%;
+}
+
+#text {
+	position: fixed;
+	background: #eeacad;
+	opacity:0.7;
+	font-weight: 600;
+	color:black;
+	text-align: center;
+	padding: 0.7% 0.3%;
+	font-size: 2rem;
+	border-radius: 20px;
+	z-index: 999;
+}
+
+/*logo end*/
+
+/*nav start*/
+nav {
+	width: 100%;
+}
+nav ul li {
+	float: left;
+	width: 25%;
+	padding:1.8% 0;
+	background: #fc0452;
+	text-align: center;
+    border-left: 0.01rem solid #bc053e;
+    border-right: 0.01rem solid #fe90b3;
+}
+nav ul li a{
+	
+	color:white;
+	font-size: 2rem
+}
+/*nav end*/
+
+
+#banner ul li{
+	background: red;
+}
