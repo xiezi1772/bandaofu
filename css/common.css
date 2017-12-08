@@ -1,0 +1,192 @@
+
+/*top start*/
+header {
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 998;
+}
+header .box {
+	max-width: 750px;
+	min-width: 320px;
+	width:100%;
+	height: auto;
+	margin: 0 auto;
+	background: #ba0101;
+	overflow: hidden;
+}
+
+header .left{
+	width: 16%;
+	position: relative;
+}
+header .weixin-lcon {
+	width: 60%;
+	margin: 0.5rem 2% 3% 30%;
+}
+
+header .left .weixin-lcon img {
+	height: auto;
+}
+
+header .center {
+	width:54%;
+}
+header .center i{
+	font-style: normal;
+	color: #f6ff00;
+}
+header .center span{
+	display: block;
+	font-size: 2rem;
+	font-weight: 600;
+	color:#fff;
+	margin-top: 2%;
+	line-height: 150%;
+}
+
+header .right{
+	width: 30%;
+}
+header .qrcode {
+	width: 35%;
+	margin: 0.5rem 0 1% 15%;
+}
+
+/*top end*/
+
+/*logo start*/
+#logo{
+	position: relative;
+	z-index: 1;
+	width: 100%;
+}
+
+
+#text {
+	position: fixed;
+	background: #eeacad;
+	opacity:0.7;
+	font-weight: 600;
+	color:black;
+	text-align: center;
+	padding: 4% 1.5%;
+	font-size: 2rem;
+	border-radius: 25px;
+	z-index: 999;
+	line-height: 0;
+}
+
+/*logo end*/
+
+/*nav start*/
+nav {
+	width: 100%;
+}
+nav ul li {
+	float: left;
+	width: 25%;
+	padding:4.2% 0;
+	background: #fc0452;
+	text-align: center;
+    border-left: 0.01rem solid #bc053e;
+    border-right: 0.01rem solid #fe90b3;
+}
+nav ul li a{
+	color:white;
+	font-size: 2rem
+}
+/*nav end*/
+
+
+footer .copyright{
+	width: 100%;
+	background: #ff4982;
+	height: 20%;
+	text-align: center;
+	line-height: 0;
+}
+
+footer .copyright p{
+	color:white;
+	font-size:2rem;
+	padding: 3.1% 0;
+}
+footer .bottom{
+	position: fixed;
+	bottom: 0;
+	line-height: 0;
+}
+footer .bottom a{
+	width: 50%;
+	display: block;
+	float: left;
+}
+
+/*弹出框开始*/
+.popup{
+	position: fixed;
+	z-index: 1000;
+	left:0;
+	top:50%;
+	width: 100%;
+	margin-top: -100px;
+	display: none;
+}
+.popup .box{
+	width:260px;
+	height: auto;
+	margin: 0 auto;
+	background: white;
+	border-radius:20px;
+	position: relative;
+	padding: 10px;
+}
+
+.popup .box img{
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top:0px;
+	right: 0px;
+	cursor: pointer;
+}
+.popup .box span{
+	display: block;
+	text-align: center;
+}
+
+.popup .box span.tel, .popup .box span.wechat {
+	width: 100%;
+	height: 100px;
+	line-height: 110px;
+	font-weight: bold;
+	color:#666;
+	font-size: 30px;
+}
+.popup .box .telbox{
+	padding-bottom: 20px;
+}
+.popup .box a,.popup .box .weixinhao{
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	background: #f62796;
+	font-size: 30px;
+	color: white;
+	line-height: 50px;
+	color: white;
+}
+.popup .box span.copy {
+	color:#6d6d6d;
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	font-size: 18px;
+}
+
+
+/*弹出框结束*/

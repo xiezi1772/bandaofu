@@ -26,6 +26,11 @@ $(function(){
 		cssChange();
 	});
 	
+	// 关闭弹出框
+	$('.popup .del').on('click',function(){
+		$('.popup').hide();
+	})
+
 	
 
 })
@@ -52,3 +57,21 @@ function cssChange()
 	var bottomH = $('.bottom').height();
 	$('footer .copyright').css('margin-bottom', bottomH + 'px');
 }
+
+
+
+
+function popup(type){
+	if(type == 'weixin')
+	{
+		$('.popup').show().find('.wxbox').show();
+		$('.popup .telbox').hide();
+	}
+	else
+	{
+		$('.popup').show().find('.wxbox').hide();
+		$('.popup .telbox').show();
+	}
+	
+}
+

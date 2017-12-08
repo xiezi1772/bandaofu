@@ -20,13 +20,21 @@
 	background: #fc0452;
 	font-size:2.3rem;
 	font-weight: 600;
-	padding: 9.5% 0;
+	padding: 6.2% 0;
 }
 /*.contact end*/
 
 
-#method #photo{
+#method,#photo{
 	margin-top:13%;
+	
 }
+
+#banner,#method,#photo,#conner,.certificate{
+	line-height: 0;
+}
+
+
+
 
 

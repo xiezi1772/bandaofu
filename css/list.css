@@ -1,0 +1,72 @@
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 40px;
+	width: 100%;
+}
+.fixed {
+	width: 100%;
+	background: #D20001;
+	max-width: 750px;
+	min-width: 320px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+header .fixed h1{
+	width: 80%;
+}
+header .fixed h1 a{
+	color: white;
+	line-height: 40px;
+	padding-left:5%;
+}
+header .fixed div{
+	width: 20%;
+	line-height: 40px;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	border-left: 1px solid white;
+}
+
+article {
+	width: 90%;
+	margin: 5rem auto;
+}
+
+article .article{
+	width: 100%;
+	height: auto;
+	margin:20px 0;
+}
+article .article h2{
+	margin-bottom: 2%;
+}
+article .article h2 a{
+	font-size: 2rem;
+	color: blue;
+	line-height: 2rem;
+}
+article .article h6{
+	color: #666;
+}
+
+.page {
+	width: 100%;
+	height: auto;
+}
+
+.page a{
+	display: block;
+	padding: 1.5% 2%;
+	margin: 1%;
+	color:black;
+	float:left;
+	border:1px solid #eee;
+}
+
+.page .page-lcon {
+	/*font-weight: bold;*/
+	/*font-size:2.5rem;*/
+}
