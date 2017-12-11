@@ -1,41 +1,26 @@
-<?php /* Smarty version 2.6.25, created on 2017-12-11 17:55:20
+<?php /* Smarty version 2.6.25, created on 2017-12-11 19:36:56
          compiled from list.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'formaturl', 'list.tpl', 39, false),)), $this); ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'formaturl', 'list.tpl', 25, false),)), $this); ?>
 <?php $this->assign('seotitle', $this->_tpl_vars['category']->seotitle); ?>
 <?php $this->assign('seokeywords', $this->_tpl_vars['category']->seokeywords); ?>
 <?php $this->assign('seodescription', $this->_tpl_vars['category']->seodescription); ?>
-	<meta charset="UTF-8">
-	<title><?php echo $this->_tpl_vars['seotitle']; ?>
- - <?php echo $this->_tpl_vars['sitename']; ?>
-</title>
-	<?php if ($this->_tpl_vars['seokeywords'] != "-" && $this->_tpl_vars['seokeywords'] != ""): ?>
-	<meta name="keywords" content="{$seokeywords}" />
-	<?php endif; ?>
-	<?php if ($this->_tpl_vars['seodescription'] != "-" && $this->_tpl_vars['seodescription'] != ""): ?>
-	<meta name="description" content="{$seodescription}" />
-	<?php endif; ?>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="<?php echo $this->_tpl_vars['siteurl']; ?>
-/templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/css/base.css">
-	<link rel="stylesheet" href="<?php echo $this->_tpl_vars['siteurl']; ?>
+<?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "art_header.tpl", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
+<link rel="stylesheet" href="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
 /css/list.css">
-	<script src="<?php echo $this->_tpl_vars['siteurl']; ?>
-/templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/js/base.js"></script>
-</head>
 <body>
 	<div class="container">
 		<header>
 			<div class="fixed">
-				<h1 class="f-l"><a href=""><?php echo $this->_tpl_vars['category']->name; ?>
-</a></h1>
-				<div class="f-r">斑道夫列表页</div>
+				<h1 class="f-l"><a href="<?php echo $this->_tpl_vars['siteurl']; ?>
+/">山东青岛斑道夫</a></h1>
+				<div class="f-r"><?php echo $this->_tpl_vars['category']->name; ?>
+</div>
 			</div>
 		</header>
 		<div class="navigate">当前位置: 
@@ -96,15 +81,8 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'formaturl',
 
 		</div>
 		<div class="clearfix"></div>
-		<footer>
-			<p>
-				<a href="">测试链接</a>
-				<a href="">测试链接</a>
-				<a href="">测试链接</a>
-			</p>
-			<p>本站采用Z-Blog系统搭建，鸟儿博客、张戈博客提供技术支持</p>
-		</footer>	
-	</div>
-
-</body>
-</html>
+<?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "art_footer.tpl", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>

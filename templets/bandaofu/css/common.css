@@ -136,6 +136,9 @@ footer .copyright{
 	line-height: 0;
 }
 
+footer .copyright a{
+	color: white;
+}
 footer .copyright p{
 	color:white;
 	font-size:2rem;

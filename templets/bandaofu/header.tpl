@@ -65,10 +65,10 @@
 		<!-- nav start -->
 		<nav>
 			<ul>
-				<li><a href="<{$siteurl}>/">网站首页</a></li>
-				<li><a href="<{$siteurl}>/a_profile.html">公司简介</a></li>
-				<li><a href="<{$siteurl}>/a_business.html">业务介绍</a></li>
-				<li><a href="<{$siteurl}>/a_contact.html">联系我们</a></li>
+				<{assign var="topnavlist" value=$navdata->TakeNavigateList("顶部导航",0,4)}>
+				<{foreach from=$topnavlist item=navinfo}>
+				<li><a href="<{$navinfo->url}>" title="<{$navinfo->name}>"><{$navinfo->name}></a></li>
+				<{/foreach}>
 			</ul>
 		</nav>
 		<!-- nav end -->

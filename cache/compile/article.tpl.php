@@ -1,49 +1,33 @@
-<?php /* Smarty version 2.6.25, created on 2017-12-11 17:57:22
+<?php /* Smarty version 2.6.25, created on 2017-12-11 19:16:42
          compiled from article.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'formaturl', 'article.tpl', 46, false),)), $this); ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'formaturl', 'article.tpl', 32, false),)), $this); ?>
 <?php $this->assign('seotitle', $this->_tpl_vars['article']->seotitle); ?>
 <?php $this->assign('seokeywords', $this->_tpl_vars['article']->seokeywords); ?>
 <?php $this->assign('seodescription', $this->_tpl_vars['article']->seodescription); ?>
-	<meta charset="UTF-8">
-	<title><?php echo $this->_tpl_vars['seotitle']; ?>
- - <?php echo $this->_tpl_vars['sitename']; ?>
-</title>
-	<?php if ($this->_tpl_vars['seokeywords'] != "-" && $this->_tpl_vars['seokeywords'] != ""): ?>
-	<meta name="keywords" content="<?php echo $this->_tpl_vars['seokeywords']; ?>
-" />
-	<?php endif; ?>
-	<?php if ($this->_tpl_vars['seodescription'] != "-" && $this->_tpl_vars['seodescription'] != ""): ?>
-	<meta name="description" content="<?php echo $this->_tpl_vars['seodescription']; ?>
-" />
-	<?php endif; ?>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="<?php echo $this->_tpl_vars['siteurl']; ?>
-/templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/css/base.css">
-	<link rel="stylesheet" href="<?php echo $this->_tpl_vars['siteurl']; ?>
+<?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "art_header.tpl", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
+<link rel="stylesheet" href="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
 /css/article.css">
-	<script src="<?php echo $this->_tpl_vars['siteurl']; ?>
-/templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/js/base.js"></script>
-</head>
 <body>
 	<div class="container">
 		<header>
 			<div class="fixed">
-				<h1 class="f-l"><a href="">斑道夫分类</a></h1>
-				<div class="f-r">导航</div>
+				<h1 class="f-l"><a href="<?php echo $this->_tpl_vars['siteurl']; ?>
+/">山东青岛斑道夫官网</a></h1>
+				<div class="f-r"></div>
 			</div>
 		</header>
 		<div class="navigate">当前位置: 
 			<?php $_from = $this->_tpl_vars['crumb']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
     foreach ($_from as $this->_tpl_vars['cat']):
 ?>
-			<a href="{$cat->url}"><?php echo $this->_tpl_vars['cat']->name; ?>
+			<a href="<?php echo $this->_tpl_vars['cat']->url; ?>
+"><?php echo $this->_tpl_vars['cat']->name; ?>
 </a> > 
 			<?php endforeach; endif; unset($_from); ?>
 			<?php echo $this->_tpl_vars['article']->title; ?>

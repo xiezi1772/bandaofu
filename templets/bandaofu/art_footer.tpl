@@ -1,10 +1,11 @@
 		<footer>
 			<p>
-				<a href="">测试链接</a>
-				<a href="">测试链接</a>
-				<a href="">测试链接</a>
+				<{assign var="footnavlist" value=$navdata->TakeNavigateList("次导航",0,3)}>
+				<{foreach from=$footnavlist item=navinfo}>
+					<a href="<{$navinfo->url}>" title="<{$navinfo->name}>"><{$navinfo->name}></a>
+				<{/foreach}>
 			</p>
-			<p>本站采用Z-Blog系统搭建，鸟儿博客、张戈博客提供技术支持</p>
+			<p>版权所有:<{$sitecopy}> <a href="<{formaturl type="sitemap" siteurl=$siteurl name="sitemap.php"}>">网站地图</a></p>
 		</footer>
 	</div>
 </body>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25, created on 2017-12-11 13:45:08
+<?php /* Smarty version 2.6.25, created on 2017-12-11 19:27:43
          compiled from contact.tpl */ ?>
 <?php $this->assign('seotitle', $this->_tpl_vars['article']->seotitle); ?>
 <?php $this->assign('seokeywords', $this->_tpl_vars['article']->seokeywords); ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25, created on 2017-12-11 17:55:17
+<?php /* Smarty version 2.6.25, created on 2017-12-11 19:36:24
          compiled from header.tpl */ ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -97,14 +97,15 @@
 		<!-- nav start -->
 		<nav>
 			<ul>
-				<li><a href="<?php echo $this->_tpl_vars['siteurl']; ?>
-/">网站首页</a></li>
-				<li><a href="<?php echo $this->_tpl_vars['siteurl']; ?>
-/a_profile.html">公司简介</a></li>
-				<li><a href="<?php echo $this->_tpl_vars['siteurl']; ?>
-/a_business.html">业务介绍</a></li>
-				<li><a href="<?php echo $this->_tpl_vars['siteurl']; ?>
-/a_contact.html">联系我们</a></li>
+				<?php $this->assign('topnavlist', $this->_tpl_vars['navdata']->TakeNavigateList("顶部导航",0,4)); ?>
+				<?php $_from = $this->_tpl_vars['topnavlist']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['navinfo']):
+?>
+				<li><a href="<?php echo $this->_tpl_vars['navinfo']->url; ?>
+" title="<?php echo $this->_tpl_vars['navinfo']->name; ?>
+"><?php echo $this->_tpl_vars['navinfo']->name; ?>
+</a></li>
+				<?php endforeach; endif; unset($_from); ?>
 			</ul>
 		</nav>
 		<!-- nav end -->

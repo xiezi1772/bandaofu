@@ -1,33 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
 <{assign var="seotitle" value=$article->seotitle}>
 <{assign var="seokeywords" value=$article->seokeywords}>
 <{assign var="seodescription" value=$article->seodescription}>
-	<meta charset="UTF-8">
-	<title><{$seotitle}> - <{$sitename}></title>
-	<{if $seokeywords != "-" && $seokeywords != ""}>
-	<meta name="keywords" content="<{$seokeywords}>" />
-	<{/if}>
-	<{if $seodescription != "-" && $seodescription != ""}>
-	<meta name="description" content="<{$seodescription}>" />
-	<{/if}>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="<{$siteurl}>/templets/<{$templets->directory}>/css/base.css">
-	<link rel="stylesheet" href="<{$siteurl}>/templets/<{$templets->directory}>/css/article.css">
-	<script src="<{$siteurl}>/templets/<{$templets->directory}>/js/base.js"></script>
-</head>
+<{include file="art_header.tpl"}>
+<link rel="stylesheet" href="<{$siteurl}>/templets/<{$templets->directory}>/css/article.css">
 <body>
 	<div class="container">
 		<header>
 			<div class="fixed">
-				<h1 class="f-l"><a href="">斑道夫分类</a></h1>
-				<div class="f-r">导航</div>
+				<h1 class="f-l"><a href="<{$siteurl}>/">山东青岛斑道夫官网</a></h1>
+				<div class="f-r"></div>
 			</div>
 		</header>
 		<div class="navigate">当前位置: 
 			<{foreach from=$crumb item=cat}>
-			<a href="{$cat->url}"><{$cat->name}></a> > 
+			<a href="<{$cat->url}>"><{$cat->name}></a> > 
 			<{/foreach}>
 			<{$article->title}>
 		</div>

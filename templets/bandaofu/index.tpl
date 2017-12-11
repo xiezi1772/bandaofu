@@ -5,16 +5,16 @@
 <!-- banner start -->
 <div id="banner" class="clearfix">
 	<ul>
-		<li><img src="<{$siteurl}>/templets/<{$templets->directory}>/images/banner.jpg" alt="山东青岛斑道夫5天揭膜祛斑第一张"></li>
-		<li><img src="<{$siteurl}>/templets/<{$templets->directory}>/images/banner1.jpg" alt="山东青岛斑道夫5天揭膜祛斑第二张"></li>
-		<li><img src="<{$siteurl}>/templets/<{$templets->directory}>/images/banner2.jpg" alt="山东青岛斑道夫5天揭膜祛斑第三张"></li>
+		<li><img src="<{$siteurl}>/templets/<{$templets->directory}>/images/banner.jpg" alt="斑道夫5天揭膜祛斑第一张"></li>
+		<li><img src="<{$siteurl}>/templets/<{$templets->directory}>/images/banner1.jpg" alt="斑道夫祛斑产品"></li>
+		<li><img src="<{$siteurl}>/templets/<{$templets->directory}>/images/banner2.jpg" alt="斑道夫脸部祛斑"></li>
 		<li><img src="<{$siteurl}>/templets/<{$templets->directory}>/images/banner3.jpg" alt="2018选择山东青岛斑道夫没错"></li>
 		<li><a href="tel:15964946792"><img src="<{$siteurl}>/templets/<{$templets->directory}>/images/banner31.jpg" alt="山东青岛斑道夫祛斑电话,点击联系"></a></li>
 		<li><img src="<{$siteurl}>/templets/<{$templets->directory}>/images/banner32.jpg" alt="教学、技术、公司、营销、售后等保障"></li>
 		<li><img src="<{$siteurl}>/templets/<{$templets->directory}>/images/banner4.jpg" alt="山东青岛斑道夫专家许老师尊荣"></li>
 		<li><img src="<{$siteurl}>/templets/<{$templets->directory}>/images/banner5.jpg" alt="学习斑道夫祛斑0基础易学、全程辅导"></li>
 		<li><a href="javascript:popup('weixin');"><img src="<{$siteurl}>/templets/<{$templets->directory}>/images/banner6.jpg" alt="微信联系斑道夫祛斑专家许老师"></a></li>
-		<li><img src="<{$siteurl}>/templets/<{$templets->directory}>/images/banner7.jpg" alt="最底部图片"></li>
+		<li><img src="<{$siteurl}>/templets/<{$templets->directory}>/images/banner7.jpg" alt="最后一张展示图"></li>
 	</ul>
 </div>
 <!-- banner end -->
@@ -25,9 +25,9 @@
 <!-- certificate end -->
 <!-- conner start -->
 <div id="conner">
-	<img src="<{$siteurl}>/templets/<{$templets->directory}>/images/conner_3.jpg" alt="使用斑道夫的测试者图1">
-	<img src="<{$siteurl}>/templets/<{$templets->directory}>/images/conner_4.jpg" alt="使用斑道夫的测试者图1">
-	<img src="<{$siteurl}>/templets/<{$templets->directory}>/images/conner_5.jpg" alt="使用斑道夫的测试者图1">
+	<img src="<{$siteurl}>/templets/<{$templets->directory}>/images/conner_3.jpg" alt="使用斑道夫的测试者纷纷都说好">
+	<img src="<{$siteurl}>/templets/<{$templets->directory}>/images/conner_4.jpg" alt="使用斑道夫的测试者相见恨晚">
+	<img src="<{$siteurl}>/templets/<{$templets->directory}>/images/conner_5.jpg" alt="使用斑道夫的测试者图3">
 </div>
 <!-- conner end -->
 
