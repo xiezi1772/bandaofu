@@ -1,0 +1,53 @@
+article {
+	margin: 2rem 0;
+	width: 100%;
+}
+article h1 {
+	width: 50%;
+	text-align: center;
+	color: #bb0002;
+	margin: 0 auto;
+	font-weight: 600;
+	font-size: 2rem;
+}
+article h1,article p {
+	padding: 2% 2%;
+}
+article p {
+	font-size: 2rem;
+	line-height: 2.5rem;
+	text-indent: 2rem;
+}
+
+
+aside {
+	width: 100%;
+	height: auto;
+}
+aside ul li{
+	background: #e7e7e7;
+	overflow: hidden;
+	padding: 2%;
+	margin:2% 0;
+	line-height: 2rem;
+}
+
+aside ul li img {
+	width: 20%;
+	height: 20%;
+}
+aside ul li .right {
+	width: 70%;
+	margin: 0 5%;
+}
+aside ul li .right strong, aside ul li .right span{
+	display: block;
+	line-height: 170%;
+}
+aside ul li .right strong {
+	color: #6c3500;
+	font-size: 2.5rem;
+}
+aside ul li .right span {
+	font-size: 2rem;
+}

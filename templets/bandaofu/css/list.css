@@ -1,0 +1,101 @@
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 40px;
+	width: 100%;
+}
+.fixed {
+	width: 100%;
+	background: #D20001;
+	max-width: 750px;
+	min-width: 320px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+header .fixed h1{
+	width: 80%;
+}
+header .fixed h1 a{
+	color: white;
+	line-height: 40px;
+	padding-left:5%;
+}
+header .fixed div{
+	width: 20%;
+	line-height: 40px;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	border-left: 1px solid white;
+}
+
+
+.navigate,ul {
+	width: 90%;
+	margin: 5rem auto;
+}
+
+ul li{
+	width: 100%;
+	height: auto;
+	margin:20px 0;
+	line-height: 1.5rem;
+}
+ul li h2{
+	margin-bottom: 2%;
+}
+ul li h2 a{
+	font-size: 2rem;
+	color: blue;
+	line-height: 2rem;
+}
+ul li h6{
+	color: #666;
+}
+
+.page {
+	width: 100%;
+	height: auto;
+}
+
+.page div{
+	width: 50%;
+}
+.page a{
+	display: block;
+	padding: 2.5% 5%;
+	margin: 1%;
+	color:black;
+	float:left;
+	border:1px solid #eee;
+	margin-left:3%;
+}
+
+.page div:last-child a{
+	float:right;
+	margin-right:3%;
+} 
+
+
+
+footer{
+	margin-top:3rem;
+	width: 100%;
+	background: #f6f6f6;
+	overflow: hidden;
+	height: 6rem;
+	border-radius:10px;
+}
+
+footer p{
+	text-align: center;
+	margin: 1rem auto;
+}
+footer p:first-child{
+	width: 50%;
+}
+
+footer p:last-child{
+	width: 90%;
+}

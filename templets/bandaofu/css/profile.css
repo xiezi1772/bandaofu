@@ -1,0 +1,23 @@
+article {
+	width: 100%;
+	height: auto;
+	margin: 2rem 0;
+}
+article h1, article h2 {
+	color:#bb0002;
+}
+article h1 {
+	font-size: 2rem;
+	font-weight: 600;
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+
+}
+article h2,article p {
+	padding: 2% 2%;
+	text-indent: 2rem;
+}
+article p {
+	line-height: 2rem;
+}
