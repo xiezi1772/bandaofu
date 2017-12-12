@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25, created on 2017-12-11 19:36:24
+<?php /* Smarty version 2.6.25, created on 2017-12-12 15:25:13
          compiled from header.tpl */ ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -80,7 +80,7 @@
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
 /images/foot_ewmd.jpg" alt="山东青岛斑道夫许老师微信二维码"></div>
 					<a href="<?php echo $this->_tpl_vars['siteurl']; ?>
-/c_news/" class="nav"></a>
+/c_news/" class="nav" title="斑道夫动态" ></a>
 				</div>
 			</div>
 		</header>
@@ -103,7 +103,7 @@
 ?>
 				<li><a href="<?php echo $this->_tpl_vars['navinfo']->url; ?>
 " title="<?php echo $this->_tpl_vars['navinfo']->name; ?>
-"><?php echo $this->_tpl_vars['navinfo']->name; ?>
+" <?php if ($this->_tpl_vars['navinfo']->displayorder != 1): ?>rel="nofollow"<?php endif; ?> ><?php echo $this->_tpl_vars['navinfo']->name; ?>
 </a></li>
 				<?php endforeach; endif; unset($_from); ?>
 			</ul>

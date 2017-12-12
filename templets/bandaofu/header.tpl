@@ -50,7 +50,7 @@
 				</div>
 				<div class="right f-l">
 					<div class="qrcode"><img src="<{$siteurl}>/templets/<{$templets->directory}>/images/foot_ewmd.jpg" alt="山东青岛斑道夫许老师微信二维码"></div>
-					<a href="<{$siteurl}>/c_news/" class="nav"></a>
+					<a href="<{$siteurl}>/c_news/" class="nav" title="斑道夫动态" ></a>
 				</div>
 			</div>
 		</header>
@@ -67,7 +67,7 @@
 			<ul>
 				<{assign var="topnavlist" value=$navdata->TakeNavigateList("顶部导航",0,4)}>
 				<{foreach from=$topnavlist item=navinfo}>
-				<li><a href="<{$navinfo->url}>" title="<{$navinfo->name}>"><{$navinfo->name}></a></li>
+				<li><a href="<{$navinfo->url}>" title="<{$navinfo->name}>" <{if $navinfo->displayorder neq 1}>rel="nofollow"<{/if}> ><{$navinfo->name}></a></li>
 				<{/foreach}>
 			</ul>
 		</nav>

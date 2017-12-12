@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25, created on 2017-12-11 20:54:13
+<?php /* Smarty version 2.6.25, created on 2017-12-12 15:25:13
          compiled from index.tpl */ ?>
 <?php $this->assign('seotitle', $this->_tpl_vars['titlekeywords']); ?>
 <?php $this->assign('seokeywords', $this->_tpl_vars['metakeywords']); ?>
@@ -13,19 +13,19 @@ unset($_smarty_tpl_vars);
 	<ul>
 		<li><img src="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/images/banner.jpg" alt="斑道夫5天揭膜祛斑第一张"></li>
+/images/banner.jpg" alt="斑道夫五天天揭膜祛斑"></li>
 		<li><img src="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/images/banner1.jpg" alt="斑道夫祛斑产品"></li>
+/images/banner1.jpg" alt="斑道夫祛斑加盟"></li>
 		<li><img src="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/images/banner2.jpg" alt="斑道夫脸部祛斑"></li>
+/images/banner2.jpg" alt="斑道夫祛斑产品"></li>
 		<li><img src="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/images/banner3.jpg" alt="2018选择山东青岛斑道夫没错"></li>
-		<li><a href="tel:15964946792"><img src="<?php echo $this->_tpl_vars['siteurl']; ?>
+/images/banner3.jpg" alt="2018选择山东青岛斑道夫加盟没错"></li>
+		<li><a href="tel:15964946792" rel="nofollow" ><img src="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/images/banner31.jpg" alt="山东青岛斑道夫祛斑电话,点击联系"></a></li>
+/images/banner31.jpg" alt="山东青岛斑道夫祛斑加盟电话,点击联系"></a></li>
 		<li><img src="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
 /images/banner32.jpg" alt="教学、技术、公司、营销、售后等保障"></li>
@@ -34,7 +34,7 @@ unset($_smarty_tpl_vars);
 /images/banner4.jpg" alt="山东青岛斑道夫专家许老师尊荣"></li>
 		<li><img src="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/images/banner5.jpg" alt="学习斑道夫祛斑0基础易学、全程辅导"></li>
+/images/banner5.jpg" alt="加盟斑道夫祛斑0基础易学、全程辅导"></li>
 		<li><a href="javascript:popup('weixin');"><img src="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
 /images/banner6.jpg" alt="微信联系斑道夫祛斑专家许老师"></a></li>
@@ -48,7 +48,7 @@ unset($_smarty_tpl_vars);
 <div class="certificate">
 	<img src="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/images/banner77.jpg" alt="山东青岛斑道夫4张资格权利证书">
+/images/banner77.jpg" alt="斑道夫资格权利证书">
 </div>
 <!-- certificate end -->
 <!-- conner start -->
@@ -61,14 +61,14 @@ unset($_smarty_tpl_vars);
 /images/conner_4.jpg" alt="使用斑道夫的测试者相见恨晚">
 	<img src="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/images/conner_5.jpg" alt="使用斑道夫的测试者图3">
+/images/conner_5.jpg" alt="使用斑道夫的测试者效果图">
 </div>
 <!-- conner end -->
 
 <!-- contact start -->
 <div class="contact">
-	<p><a href="javascript:popup('weixin');">预约祛斑</a></p>
-	<p><a href="javascript:popup('weixin');">学习斑道夫祛斑</a></p>
+	<p><a href="javascript:popup('weixin');" rel="nofollow">预约祛斑</a></p>
+	<p><a href="javascript:popup('weixin');" rel="nofollow">学习斑道夫祛斑</a></p>
 </div>
 <!-- contact end -->
 
@@ -91,8 +91,8 @@ unset($_smarty_tpl_vars);
 
 <!-- contact start -->
 <div class="contact">
-	<p><a href="javascript:popup('weixin');">预约祛斑</a></p>
-	<p><a href="javascript:popup('weixin');">学习斑道夫祛斑</a></p>
+	<p><a href="javascript:popup('weixin');" rel="nofollow">预约祛斑</a></p>
+	<p><a href="javascript:popup('weixin');" rel="nofollow">学习斑道夫祛斑</a></p>
 </div>
 <!-- contact end -->
 

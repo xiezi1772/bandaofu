@@ -7,6 +7,6 @@ $cfg_db_pass = 'root';
 
 $cfg_db_name= 'yiqi';
 
-$cfg_db_prefix = 'yiqi_';
+$cfg_db_prefix = 'bdf_';
 
 ?>

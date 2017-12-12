@@ -13,6 +13,9 @@ header {
 	margin: 0 auto;
 	overflow: hidden;
 }
+.fixed .catname{
+	font-size: 2rem;
+}
 header .fixed h1{
 	width: 80%;
 }
@@ -30,8 +33,13 @@ header .fixed div{
 	border-left: 1px solid white;
 }
 
+.navigate {
+	padding: 0 5%;
+	margin: 60px auto 3.5%;
+	font-size: 2rem;
+}
 
-.navigate,ul {
+ul {
 	width: 90%;
 	margin: 5rem auto;
 }
@@ -39,19 +47,20 @@ header .fixed div{
 ul li{
 	width: 100%;
 	height: auto;
-	margin:20px 0;
-	line-height: 1.5rem;
+	margin:5rem 0;
+	line-height: 1rem;
 }
 ul li h2{
-	margin-bottom: 2%;
+	margin-bottom: 4%;
 }
 ul li h2 a{
-	font-size: 2rem;
+	font-size: 3rem;
 	color: blue;
 	line-height: 2rem;
 }
 ul li h6{
 	color: #666;
+	font-size: 2rem;
 }
 
 .page {
@@ -81,19 +90,20 @@ ul li h6{
 
 footer{
 	margin-top:3rem;
+	padding-bottom: 3rem;
 	width: 100%;
 	background: #f6f6f6;
 	overflow: hidden;
-	height: 6rem;
 	border-radius:10px;
 }
 
 footer p{
 	text-align: center;
-	margin: 1rem auto;
+	margin: 2rem auto;
+	font-size: 2rem;
 }
 footer p:first-child{
-	width: 50%;
+	width: 90%;
 }
 
 footer p:last-child{

@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.25, created on 2017-12-11 19:36:56
+<?php /* Smarty version 2.6.25, created on 2017-12-12 17:07:41
          compiled from list.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'formaturl', 'list.tpl', 25, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'formaturl', 'list.tpl', 26, false),)), $this); ?>
 <?php $this->assign('seotitle', $this->_tpl_vars['category']->seotitle); ?>
 <?php $this->assign('seokeywords', $this->_tpl_vars['category']->seokeywords); ?>
 <?php $this->assign('seodescription', $this->_tpl_vars['category']->seodescription); ?>
@@ -12,7 +12,8 @@ unset($_smarty_tpl_vars);
  ?>
 <link rel="stylesheet" href="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/css/list.css">
+/css/list.css?<?php echo $this->_tpl_vars['random']; ?>
+">
 <body>
 	<div class="container">
 		<header>
@@ -23,6 +24,7 @@ unset($_smarty_tpl_vars);
 </div>
 			</div>
 		</header>
+		
 		<div class="navigate">当前位置: 
 			<?php $_from = $this->_tpl_vars['crumb']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
     foreach ($_from as $this->_tpl_vars['cat']):

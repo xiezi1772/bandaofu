@@ -2,15 +2,16 @@
 <{assign var="seokeywords" value=$category->seokeywords}>
 <{assign var="seodescription" value=$category->seodescription}>
 <{include file="art_header.tpl"}>
-<link rel="stylesheet" href="<{$siteurl}>/templets/<{$templets->directory}>/css/list.css">
+<link rel="stylesheet" href="<{$siteurl}>/templets/<{$templets->directory}>/css/list.css?<{$random}>">
 <body>
 	<div class="container">
 		<header>
 			<div class="fixed">
 				<h1 class="f-l"><a href="<{$siteurl}>/">山东青岛斑道夫</a></h1>
-				<div class="f-r"><{$category->name}></div>
+				<div class="f-r catname"><{$category->name}></div>
 			</div>
 		</header>
+
 		<div class="navigate">当前位置: 
 			<{foreach from=$crumb item=cat}>
 			<a href="<{$cat->url}>"><{$cat->name}></a> > 

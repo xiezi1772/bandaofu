@@ -1,7 +1,8 @@
-<?php /* Smarty version 2.6.25, created on 2017-12-11 19:36:56
+<?php /* Smarty version 2.6.25, created on 2017-12-12 15:39:29
          compiled from art_footer.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'formaturl', 'art_footer.tpl', 8, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'formaturl', 'art_footer.tpl', 9, false),)), $this); ?>
+<div class="clearfix"></div>
 		<footer>
 			<p>
 				<?php $this->assign('footnavlist', $this->_tpl_vars['navdata']->TakeNavigateList("次导航",0,3)); ?>

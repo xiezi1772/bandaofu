@@ -41,10 +41,15 @@ for ( $i=0; $i < count( $productcategory ); $i++ )
 for ( $i=0; $i < count( $articlecategory ); $i++ )
 {
 	$value = $articlecategory[ $i ];
-	$locobj = array("type" => "category","name" => "$value->filename","siteurl" => "$siteurl");
-	$loc = formaturl($locobj);
-	$site_map_item = new google_sitemap_item( $loc, date("c"), 'weekly', "0.8" );
-	$site_map_container->add_item( $site_map_item );
+	$nocat = array('default','about');
+	if(!in_array($value->filename, $nocat))
+	{
+		$locobj = array("type" => "category","name" => "$value->filename","siteurl" => "$siteurl");
+		$loc = formaturl($locobj);
+		$site_map_item = new google_sitemap_item( $loc, date("c"), 'weekly', "0.8" );
+		$site_map_container->add_item( $site_map_item );
+	}
+
 }
 //列出首页
 $site_map_item = new google_sitemap_item( "$siteurl", date("c"), 'always', "1.0" );
