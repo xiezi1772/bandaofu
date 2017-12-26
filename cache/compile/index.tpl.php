@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25, created on 2017-12-12 15:25:13
+<?php /* Smarty version 2.6.25, created on 2017-12-26 17:33:15
          compiled from index.tpl */ ?>
 <?php $this->assign('seotitle', $this->_tpl_vars['titlekeywords']); ?>
 <?php $this->assign('seokeywords', $this->_tpl_vars['metakeywords']); ?>
@@ -110,6 +110,41 @@ unset($_smarty_tpl_vars);
 	<img src="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
 /images/conner_8.jpg" alt="学院跟着斑道夫专家大展风采">
+</div>
+<style>
+	.new-article{
+		/*background: red;*/
+		width: 100%;
+		/*padding: 2rem 1.5rem 3rem 1.5rem;*/
+		margin: 2rem 0;
+		
+	}
+	.new-article h2{
+		font-weight: 600;
+		background: #ff4982;
+		text-align: center;
+		line-height: 3.5rem;
+		color:#fff;
+		font-size: 3rem;
+	}
+	.new-article ul{
+		padding: 1rem 0 0.5rem 1.5rem;
+	}
+	.new-article ul li{
+		line-height: 2.5rem;
+	}
+	.new-article ul li a{
+		font-size: 2.5rem;
+	}
+</style>
+<div class="new-article">
+	<h2>斑道夫最新动态</h2>
+	<ul>
+		<li><a href="">吃什么蔬菜可以祛斑？</a></li>
+		<li><a href="">激光去斑效果怎么样？激光去斑到底好不好？</a></li>
+		<li><a href="">激光去斑效果怎么样？激光去斑到底好不好？</a></li>
+		<li><a href="">激光去斑效果怎么样？激光去斑到底好不好？</a></li>
+	</ul>
 </div>
 <!-- photo end -->
 <?php $_smarty_tpl_vars = $this->_tpl_vars;

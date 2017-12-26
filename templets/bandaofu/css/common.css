@@ -70,6 +70,10 @@ header .right .nav{
 	font-size: 5rem;
 	color: white;
 	display: block;
+	opacity:0;
+	filter:alpha(opacity=0);
+	-khtml-opacity: 0;  
+	-moz-opacity:0.5;
 }
 
 

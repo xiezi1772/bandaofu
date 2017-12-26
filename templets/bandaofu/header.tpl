@@ -14,7 +14,9 @@
 	<meta name="description" content="<{$seodescription}>" />
 	<{/if}>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="applicable-device" content="pc,mobile">
 	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="360-site-verification" content="e5ca401a28d55df73e402b79abe63dcf" />
 	<link rel="stylesheet" href="<{$siteurl}>/templets/<{$templets->directory}>/css/base.css?<{$random}>">
 	<link rel="stylesheet" href="<{$siteurl}>/templets/<{$templets->directory}>/css/common.css?<{$random}>">
 	<link rel="stylesheet" href="<{$siteurl}>/templets/<{$templets->directory}>/css/index.css?<{$random}>">
@@ -55,7 +57,7 @@
 			</div>
 		</header>
 		<!-- top end -->
-		<div id="text"><span>平度总店</span></div>
+		<div id="text"><span>平度加盟</span></div>
 		<!-- center logo start -->
 		<div id="logo">
 			<img src="<{$siteurl}>/templets/<{$templets->directory}>/images/logo.jpg" alt="青岛平度斑道夫">

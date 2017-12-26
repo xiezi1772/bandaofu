@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25, created on 2017-12-12 15:25:13
+<?php /* Smarty version 2.6.25, created on 2017-12-23 09:18:55
          compiled from header.tpl */ ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,7 +21,9 @@
 " />
 	<?php endif; ?>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="applicable-device" content="pc,mobile">
 	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="360-site-verification" content="e5ca401a28d55df73e402b79abe63dcf" />
 	<link rel="stylesheet" href="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
 /css/base.css?<?php echo $this->_tpl_vars['random']; ?>
@@ -85,7 +87,7 @@
 			</div>
 		</header>
 		<!-- top end -->
-		<div id="text"><span>平度总店</span></div>
+		<div id="text"><span>平度加盟</span></div>
 		<!-- center logo start -->
 		<div id="logo">
 			<img src="<?php echo $this->_tpl_vars['siteurl']; ?>

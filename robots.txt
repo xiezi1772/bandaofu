@@ -4,3 +4,4 @@ Disallow : /cache/
 Disallow : /captcha/
 Disallow : /include/
 Disallow : /templets/
+Sitemap: http://www.qdbandaofu.com/sitemap.xml

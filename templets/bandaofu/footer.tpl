@@ -21,5 +21,10 @@
 		</footer>
 		<!-- footer end -->
 	</div>
+<script>(function(){
+var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?7c71e737d4f4d4637e65282b938dec87":"https://jspassport.ssl.qhimg.com/11.0.1.js?7c71e737d4f4d4637e65282b938dec87";
+document.write('<script src="' + src + '" id="sozz"><\/script>');
+})();
+</script>
 </body>
 </html>

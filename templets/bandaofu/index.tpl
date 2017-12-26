@@ -61,5 +61,16 @@
 	<img src="<{$siteurl}>/templets/<{$templets->directory}>/images/conner_7.jpg" alt="各省各地来学习斑道夫祛斑">
 	<img src="<{$siteurl}>/templets/<{$templets->directory}>/images/conner_8.jpg" alt="学院跟着斑道夫专家大展风采">
 </div>
+<{assign var="newslist" value=$articledata->TakeArticleListByName("news",0,4)}>
+
+<div class="new-article">
+	<h2>斑道夫最新动态</h2>
+	<ul>
+		<{foreach from=$newslist item=newsinfo}>
+		<li><a href="<{formaturl type="article" siteurl=$siteurl name=$newsinfo->filename}>" title="<{$newsinfo->title}>" ><{$newsinfo->title}></a></li>
+		<{/foreach}>
+	</ul>
+</div>
+
 <!-- photo end -->
 <{include file="footer.tpl"}>

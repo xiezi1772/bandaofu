@@ -47,8 +47,8 @@
 			</div>
 			<div class="f-r">
 				<{if ($curpage > 0) && ($curpage < $totalpage)}>
-				<a href="<{formaturl type="category" siteurl=$siteurl name=$category->filename page=$nextpage}>" class="after page-lcon">›</a>
 				<a href="<{formaturl type="category" siteurl=$siteurl name=$category->filename page=$totalpage}>" class="last page-lcon">››</a>
+				<a href="<{formaturl type="category" siteurl=$siteurl name=$category->filename page=$nextpage}>" class="after page-lcon">›</a>
 				<{/if}>
 			</div>
 

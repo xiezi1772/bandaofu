@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25, created on 2017-12-12 18:35:32
+<?php /* Smarty version 2.6.25, created on 2017-12-23 09:18:55
          compiled from footer.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'formaturl', 'footer.tpl', 14, false),)), $this); ?>
@@ -41,5 +41,10 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'formaturl',
 		</footer>
 		<!-- footer end -->
 	</div>
+<script>(function(){
+var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?7c71e737d4f4d4637e65282b938dec87":"https://jspassport.ssl.qhimg.com/11.0.1.js?7c71e737d4f4d4637e65282b938dec87";
+document.write('<script src="' + src + '" id="sozz"><\/script>');
+})();
+</script>
 </body>
 </html>
