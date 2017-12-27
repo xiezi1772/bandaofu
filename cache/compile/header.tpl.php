@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25, created on 2017-12-23 09:18:55
+<?php /* Smarty version 2.6.25, created on 2017-12-27 16:54:18
          compiled from header.tpl */ ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -87,7 +87,7 @@
 			</div>
 		</header>
 		<!-- top end -->
-		<div id="text"><span>平度加盟</span></div>
+		<div id="text"><span>青岛总店</span></div>
 		<!-- center logo start -->
 		<div id="logo">
 			<img src="<?php echo $this->_tpl_vars['siteurl']; ?>

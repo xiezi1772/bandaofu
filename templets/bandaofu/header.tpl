@@ -57,7 +57,7 @@
 			</div>
 		</header>
 		<!-- top end -->
-		<div id="text"><span>平度加盟</span></div>
+		<div id="text"><span>青岛总部</span></div>
 		<!-- center logo start -->
 		<div id="logo">
 			<img src="<{$siteurl}>/templets/<{$templets->directory}>/images/logo.jpg" alt="青岛平度斑道夫">

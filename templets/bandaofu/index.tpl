@@ -59,12 +59,12 @@
 	<img src="<{$siteurl}>/templets/<{$templets->directory}>/images/conner_6.jpg" alt="斑道夫专家许老师部分学员风采">
 	<img src="<{$siteurl}>/templets/<{$templets->directory}>/images/conner_200.jpg" alt="斑道夫指导学员进行中">
 	<img src="<{$siteurl}>/templets/<{$templets->directory}>/images/conner_7.jpg" alt="各省各地来学习斑道夫祛斑">
-	<img src="<{$siteurl}>/templets/<{$templets->directory}>/images/conner_8.jpg" alt="学院跟着斑道夫专家大展风采">
+	<img src="<{$siteurl}>/templets/<{$templets->directory}>/images/conner_8.jpg?a=1" alt="学院跟着斑道夫专家大展风采">
 </div>
 <{assign var="newslist" value=$articledata->TakeArticleListByName("news",0,4)}>
 
 <div class="new-article">
-	<h2>斑道夫最新动态</h2>
+	<!-- <h2>斑道夫最新动态</h2> -->
 	<ul>
 		<{foreach from=$newslist item=newsinfo}>
 		<li><a href="<{formaturl type="article" siteurl=$siteurl name=$newsinfo->filename}>" title="<{$newsinfo->title}>" ><{$newsinfo->title}></a></li>

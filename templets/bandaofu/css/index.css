@@ -27,7 +27,6 @@
 
 #method,#photo{
 	margin-top:13%;
-	
 }
 
 #banner,#method,#photo,#conner,.certificate{
@@ -37,9 +36,12 @@
 
 .new-article{
 	width: 100%;
-	margin: 2rem 0;
 }
-.new-article h2{
+
+.new-article ul li a{
+	color:#fff;
+}
+/*.new-article h2{
 	font-weight: 600;
 	background: #ff4982;
 	text-align: center;
@@ -55,6 +57,6 @@
 }
 .new-article ul li a{
 	font-size: 2.5rem;
-}
+}*/
 
 
