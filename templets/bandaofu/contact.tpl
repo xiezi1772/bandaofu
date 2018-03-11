@@ -16,4 +16,5 @@
 			</div>
 			<em>扫一扫添加好友咨询</em>
 		</div>
+<{include file="footer_top.tpl"}>
 <{include file="footer.tpl"}>

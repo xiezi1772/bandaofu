@@ -7,7 +7,7 @@ article h1, article h2 {
 	color:#bb0002;
 }
 article h1 {
-	font-size: 2rem;
+	font-size: 3rem;
 	font-weight: 600;
 	margin: 0 auto;
 	width: 50%;
@@ -17,7 +17,8 @@ article h1 {
 article h2,article p {
 	padding: 2% 2%;
 	text-indent: 2rem;
+	font-size: 2.5rem;
 }
 article p {
-	line-height: 2rem;
+	line-height: 3rem;
 }

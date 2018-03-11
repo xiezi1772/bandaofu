@@ -27,7 +27,6 @@
 
 #method,#photo{
 	margin-top:13%;
-	
 }
 
 #banner,#method,#photo,#conner,.certificate{
@@ -35,6 +34,56 @@
 }
 
 
+.new-article,.links{
+	width: 100%;
+}
+
+.links ul li a{
+	color:#fff;
+}
+.new-article h2,.about h2{
+	font-weight: 600;
+	background: #ff4982;
+	text-align: center;
+	line-height: 3.5rem;
+	color:#fff;
+	font-size: 2.5rem;
+}
+.new-article ul{
+	padding: 1rem 1.5rem;
+	background: #fff4f8;
+}
+.new-article ul li{
+	line-height: 3.5rem;
+/*	border:1px solid yellow;*/
+}
+.new-article ul li a{
+	font-size: 2rem;
+}
+
+.new-article ul li span{
+	float: right;
+	font-size: 2rem;
+}
+.about h3,.about p{
+	padding: 0.2rem 1rem;
+	font-size: 2rem;
+	line-height: 3rem;
+}
+.about h3{
+	margin-top:1rem;
+	background: #ff4975;
+	color:#fff;
+}
+
+.about p{
+	text-indent: 1.5rem;
+	margin: 1rem 0;
+}
 
 
-
+.links{
+	border-top:#ba0101;
+	line-height: 3rem;
+	font-size: 2rem;
+}

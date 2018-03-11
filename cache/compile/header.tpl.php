@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25, created on 2017-12-11 19:36:24
+<?php /* Smarty version 2.6.25, created on 2018-03-11 17:15:53
          compiled from header.tpl */ ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,25 +21,23 @@
 " />
 	<?php endif; ?>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="applicable-device" content="pc,mobile">
 	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="wlhlauth" content="a544d25d0f76cebb5f5ce9797426207e"/>
+	<meta name="360-site-verification" content="e5ca401a28d55df73e402b79abe63dcf" />
 	<link rel="stylesheet" href="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/css/base.css?<?php echo $this->_tpl_vars['random']; ?>
-">
+/css/base.css">
 	<link rel="stylesheet" href="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/css/common.css?<?php echo $this->_tpl_vars['random']; ?>
-">
+/css/common.css">
 	<link rel="stylesheet" href="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/css/index.css?<?php echo $this->_tpl_vars['random']; ?>
-">
-	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js?<?php echo $this->_tpl_vars['random']; ?>
-"></script>
+/css/index.css?aaa=5">
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 	<script src="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/js/base.js?<?php echo $this->_tpl_vars['random']; ?>
-"></script>
+/js/base.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -68,7 +66,7 @@
 					<div class="weixin-lcon">
 						<img src="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/images/foot_zk.jpg" alt="山东青岛斑道夫微信图标">
+/images/foot_zk.jpg" alt="微信图标">
 					</div>
 				</div>
 				<div class="center f-l">
@@ -78,19 +76,19 @@
 				<div class="right f-l">
 					<div class="qrcode"><img src="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/images/foot_ewmd.jpg" alt="山东青岛斑道夫许老师微信二维码"></div>
+/images/foot_ewmd.jpg" alt="许老师微信二维码"></div>
 					<a href="<?php echo $this->_tpl_vars['siteurl']; ?>
-/c_news/" class="nav"></a>
+/c_news/" class="nav" title="斑道夫动态" ></a>
 				</div>
 			</div>
 		</header>
 		<!-- top end -->
-		<div id="text"><span>平度总店</span></div>
+		<div id="text"><span>青岛总店</span></div>
 		<!-- center logo start -->
 		<div id="logo">
 			<img src="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/images/logo.jpg" alt="青岛平度斑道夫">
+/images/logo.jpg" alt="青岛斑道夫logo">
 		</div>
 		<!-- center logo end -->
 
@@ -103,7 +101,7 @@
 ?>
 				<li><a href="<?php echo $this->_tpl_vars['navinfo']->url; ?>
 " title="<?php echo $this->_tpl_vars['navinfo']->name; ?>
-"><?php echo $this->_tpl_vars['navinfo']->name; ?>
+" <?php if ($this->_tpl_vars['navinfo']->displayorder != 1): ?>rel="nofollow"<?php endif; ?> ><?php echo $this->_tpl_vars['navinfo']->name; ?>
 </a></li>
 				<?php endforeach; endif; unset($_from); ?>
 			</ul>

@@ -1,3 +1,6 @@
+*{
+	font-size: 2rem;
+}
 header {
 	position: fixed;
 	top: 0;
@@ -33,7 +36,7 @@ header .fixed div{
 	padding: 0 5%;
 }
 .navigate {
-	margin: 5rem auto 3%;
+	margin: 60px auto 3.5%;
 }
 /*.article{
 	margin: 0 auto;
@@ -57,20 +60,35 @@ header .fixed div{
 }
 
 .articlepage {
+	padding: 5% 5% 10%;
 	margin-top: 5%;
 	width: 100%;
 }
 .articlepage p{
-	padding: 5% 5% 10%;
-	width: 50%;
+	width: 100%;
+	line-height: 3.5rem;
 }
 
-.articlepage .last{
-	text-align: right;
+
+article>*{
+	line-height: 3.5rem;
+	margin:3.5% 0;
+	font-style: normal;
+	text-indent: 2rem;
+	font-size: 2.5rem;
 }
 
-.articlepage .first{
-	text-align: left;
+article a{
+	font-size: 2.5rem;
+	color:blue;
+}
+
+article>h1,h2,h3,h4,h5,h6,strong,b{
+	font-weight: bold;
+}
+
+article strong{
+	font-size: 2.5rem;
 }
 
 aside{
@@ -88,8 +106,9 @@ aside h3{
 	text-indent: 1rem;
 }
 aside li{
-	line-height: 2.5rem;
-	height: 3rem;
+	line-height: 5rem;
+	overflow: hidden;
+	/*height: 3rem;*/
 }
 aside li a{
 	float: left;
@@ -99,22 +118,22 @@ aside li span{
 }
 
 
-
 footer{
 	margin-top:3rem;
+	padding-bottom: 3rem;
 	width: 100%;
 	background: #f6f6f6;
 	overflow: hidden;
-	height: 6rem;
 	border-radius:10px;
 }
 
 footer p{
 	text-align: center;
 	margin: 1rem auto;
+	font-size: 2rem;
 }
 footer p:first-child{
-	width: 50%;
+	width: 90%;
 }
 
 footer p:last-child{

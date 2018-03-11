@@ -70,6 +70,10 @@ header .right .nav{
 	font-size: 5rem;
 	color: white;
 	display: block;
+	opacity:0;
+	filter:alpha(opacity=0);
+	-khtml-opacity: 0;  
+	-moz-opacity:0.5;
 }
 
 
@@ -149,9 +153,23 @@ footer .bottom{
 	bottom: 0;
 	line-height: 0;
 }
-footer .bottom a{
+footer .bottom .top{
+	background: #666;
+}
+footer .bottom .top .b-l{
+	width: 81.25%;
+	max-width: 100%;
+	float: left;
+	border:none;
+}
+footer .bottom .top .b-r{
+	width: 18.75%;
+	max-width: 100%;
+	float:right;
+	border:none;
+}
+footer .bottom .bot a{
 	width: 50%;
-	display: block;
 	float: left;
 }
 

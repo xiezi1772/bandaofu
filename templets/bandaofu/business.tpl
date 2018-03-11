@@ -43,4 +43,5 @@
 			<img src="<{$siteurl}>/templets/<{$templets->directory}>/images/conner_223.jpg" alt="激光手术、药水祛斑、腐蚀皮肤祛斑">
 		</div>
 		<!-- 祛斑方法end -->
+<{include file="footer_top.tpl"}>
 <{include file="footer.tpl"}>
