@@ -107,17 +107,34 @@ if($action=='save')
 			$sql = "UPDATE yiqi_article SET thumb = '$attach' WHERE aid = '$aid'";
 			$yiqi_db->query(CheckSql($sql));
 		}
+
+		$urlparam = array( 'name' => $articlefilename, 'type' => $posttype);
+		$fileurl = formaturl($urlparam);
 		//自动生成关键词
 		if($articlekeywords != "-")
 		{
 			$keywordsdata = new Keywords;
-			$urlparam = array( 'name' => $articlefilename, 'type' => $posttype);
-			$fileurl = formaturl($urlparam);
 			$keyword_arr = explode(',', $articlekeywords);
 			foreach($keyword_arr as $val){
 				$keywordsdata->AddKeyword($val, $fileurl);
 			}
 		}
+
+		$urls = array(
+			$fileurl
+		);
+		$api = 'http://data.zz.baidu.com/urls?site=www.qdbandaofu.com&token=AB5CxNWQrsHpk8T7';
+		$ch = curl_init();
+		$options =  array(
+		    CURLOPT_URL => $api,
+		    CURLOPT_POST => true,
+		    CURLOPT_RETURNTRANSFER => true,
+		    CURLOPT_POSTFIELDS => implode("\n", $urls),
+		    CURLOPT_HTTPHEADER => array('Content-Type: text/plain'),
+		);
+		curl_setopt_array($ch, $options);
+		$result = curl_exec($ch);
+
 		exit("文章添加成功！");
 	}
 	else

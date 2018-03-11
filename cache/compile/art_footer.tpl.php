@@ -1,7 +1,8 @@
-<?php /* Smarty version 2.6.25, created on 2017-12-11 19:36:56
+<?php /* Smarty version 2.6.25, created on 2017-12-23 09:09:46
          compiled from art_footer.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'formaturl', 'art_footer.tpl', 8, false),)), $this); ?>
+<div class="clearfix"></div>
 		<footer>
 			<p>
 				<?php $this->assign('footnavlist', $this->_tpl_vars['navdata']->TakeNavigateList("次导航",0,3)); ?>
@@ -13,10 +14,12 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'formaturl',
 "><?php echo $this->_tpl_vars['navinfo']->name; ?>
 </a>
 				<?php endforeach; endif; unset($_from); ?>
+				<a href="<?php echo formaturl(array('type' => 'sitemap','siteurl' => $this->_tpl_vars['siteurl'],'name' => "sitemap.php"), $this);?>
+">网站地图</a>
 			</p>
 			<p>版权所有:<?php echo $this->_tpl_vars['sitecopy']; ?>
- <a href="<?php echo formaturl(array('type' => 'sitemap','siteurl' => $this->_tpl_vars['siteurl'],'name' => "sitemap.php"), $this);?>
-">网站地图</a></p>
+ <?php echo $this->_tpl_vars['sitestat']; ?>
+ </p>
 		</footer>
 	</div>
 </body>

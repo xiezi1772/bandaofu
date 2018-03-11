@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25, created on 2017-12-11 19:42:14
+<?php /* Smarty version 2.6.25, created on 2017-12-23 09:09:46
          compiled from art_header.tpl */ ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,6 +16,7 @@
 " />
 	<?php endif; ?>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="applicable-device" content="pc,mobile">
 	<link rel="stylesheet" href="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
 /css/base.css">

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25, created on 2017-12-11 19:16:42
+<?php /* Smarty version 2.6.25, created on 2017-12-23 09:09:46
          compiled from article.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'formaturl', 'article.tpl', 32, false),)), $this); ?>
@@ -12,7 +12,8 @@ unset($_smarty_tpl_vars);
  ?>
 <link rel="stylesheet" href="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/css/article.css">
+/css/article.css?<?php echo $this->_tpl_vars['random']; ?>
+">
 <body>
 	<div class="container">
 		<header>
@@ -49,13 +50,13 @@ unset($_smarty_tpl_vars);
 		<div class="articlepage">
 			<?php $this->assign('prevarticle', $this->_tpl_vars['articledata']->GetPrevArticle($this->_tpl_vars['article'])); ?>
 			<?php if ($this->_tpl_vars['prevarticle']->title != ""): ?>
-			<p class="f-l first">上一篇:<a href="<?php echo formaturl(array('type' => 'article','siteurl' => $this->_tpl_vars['siteurl'],'name' => $this->_tpl_vars['prevarticle']->filename), $this);?>
+			<p class="first">上一篇：<a href="<?php echo formaturl(array('type' => 'article','siteurl' => $this->_tpl_vars['siteurl'],'name' => $this->_tpl_vars['prevarticle']->filename), $this);?>
 "><?php echo $this->_tpl_vars['prevarticle']->title; ?>
 </a></p>
 			<?php endif; ?>
 			<?php $this->assign('nextarticle', $this->_tpl_vars['articledata']->GetNextArticle($this->_tpl_vars['article'])); ?>
 			<?php if ($this->_tpl_vars['nextarticle']->title != ""): ?>
-			<p class="f-r last">下一篇:<a href="<?php echo formaturl(array('type' => 'article','siteurl' => $this->_tpl_vars['siteurl'],'name' => $this->_tpl_vars['nextarticle']->filename), $this);?>
+			<p class="last">下一篇：<a href="<?php echo formaturl(array('type' => 'article','siteurl' => $this->_tpl_vars['siteurl'],'name' => $this->_tpl_vars['nextarticle']->filename), $this);?>
 "><?php echo $this->_tpl_vars['nextarticle']->title; ?>
 </a></p>
 			<?php endif; ?>

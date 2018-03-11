@@ -10,4 +10,5 @@
 			<{$article->content}>
 		</article>
 		<!-- article end -->
+<{include file="footer_top.tpl"}>
 <{include file="footer.tpl"}>
