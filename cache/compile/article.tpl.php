@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25, created on 2017-12-23 09:09:46
+<?php /* Smarty version 2.6.25, created on 2018-03-15 09:17:52
          compiled from article.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'formaturl', 'article.tpl', 32, false),)), $this); ?>
@@ -76,7 +76,20 @@ unset($_smarty_tpl_vars);
 				<?php endforeach; endif; unset($_from); ?>
 			</ul>
 		</aside>
-
+		<aside>
+			<h3>相关文章</h3>
+			<ul>
+				<?php $this->assign('realtedarticlelist', $this->_tpl_vars['articledata']->TakeArticleList($this->_tpl_vars['article']->cid,0,6,'viewcount desc')); ?>
+				<?php $_from = $this->_tpl_vars['realtedarticlelist']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['articleinfo']):
+?>
+				<li><a href="<?php echo formaturl(array('type' => 'article','siteurl' => $this->_tpl_vars['siteurl'],'name' => $this->_tpl_vars['articleinfo']->filename), $this);?>
+"><?php echo $this->_tpl_vars['articleinfo']->title; ?>
+</a><span><?php echo $this->_tpl_vars['articleinfo']->adddate; ?>
+</span></li>
+				<?php endforeach; endif; unset($_from); ?>
+			</ul>
+		</aside>
 <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "art_footer.tpl", 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-<?php /* Smarty version 2.6.25, created on 2018-03-11 17:15:53
-=======
-<?php /* Smarty version 2.6.25, created on 2017-12-27 16:54:18
->>>>>>> 989de7f7bbfccbcc5887481ba68c11e236386763
+<?php /* Smarty version 2.6.25, created on 2018-03-15 09:17:49
          compiled from header.tpl */ ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -27,17 +23,14 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta name="applicable-device" content="pc,mobile">
 	<meta http-equiv="pragma" content="no-cache" />
-<<<<<<< HEAD
 	<meta name="wlhlauth" content="a544d25d0f76cebb5f5ce9797426207e"/>
-=======
->>>>>>> 989de7f7bbfccbcc5887481ba68c11e236386763
 	<meta name="360-site-verification" content="e5ca401a28d55df73e402b79abe63dcf" />
 	<link rel="stylesheet" href="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
 /css/base.css">
 	<link rel="stylesheet" href="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/css/common.css">
+/css/common.css?a=1">
 	<link rel="stylesheet" href="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
 /css/index.css?aaa=5">

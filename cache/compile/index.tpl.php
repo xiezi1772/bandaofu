@@ -1,14 +1,7 @@
-<<<<<<< HEAD
-<?php /* Smarty version 2.6.25, created on 2018-03-11 17:15:53
+<?php /* Smarty version 2.6.25, created on 2018-03-15 09:17:49
          compiled from index.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'formaturl', 'index.tpl', 79, false),array('modifier', 'date_format', 'index.tpl', 85, false),)), $this); ?>
-=======
-<?php /* Smarty version 2.6.25, created on 2017-12-27 16:43:20
-         compiled from index.tpl */ ?>
-<?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'formaturl', 'index.tpl', 70, false),)), $this); ?>
->>>>>>> 989de7f7bbfccbcc5887481ba68c11e236386763
 <?php $this->assign('seotitle', $this->_tpl_vars['titlekeywords']); ?>
 <?php $this->assign('seokeywords', $this->_tpl_vars['metakeywords']); ?>
 <?php $this->assign('seodescription', $this->_tpl_vars['metadescription']); ?>
@@ -22,7 +15,6 @@ unset($_smarty_tpl_vars);
 	<ul>
 		<li><img src="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-<<<<<<< HEAD
 /images/banner.jpg" alt="五天天揭膜祛斑"></li>
 		<li><img src="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
@@ -33,18 +25,6 @@ unset($_smarty_tpl_vars);
 		<li><img src="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
 /images/banner3.jpg" alt="2018加盟祛斑首选"></li>
-=======
-/images/banner.jpg" alt="斑道夫五天天揭膜祛斑"></li>
-		<li><img src="<?php echo $this->_tpl_vars['siteurl']; ?>
-/templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/images/banner1.jpg" alt="斑道夫祛斑加盟"></li>
-		<li><img src="<?php echo $this->_tpl_vars['siteurl']; ?>
-/templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/images/banner2.jpg" alt="斑道夫祛斑产品"></li>
-		<li><img src="<?php echo $this->_tpl_vars['siteurl']; ?>
-/templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/images/banner3.jpg" alt="2018选择山东青岛斑道夫加盟没错"></li>
->>>>>>> 989de7f7bbfccbcc5887481ba68c11e236386763
 		<li><a href="tel:15964946792" rel="nofollow" ><img src="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
 /images/banner31.jpg" alt="山东青岛斑道夫祛斑加盟电话,点击联系"></a></li>
@@ -70,11 +50,7 @@ unset($_smarty_tpl_vars);
 <div class="certificate">
 	<img src="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-<<<<<<< HEAD
 /images/banner77.jpg" alt="资格权利证书">
-=======
-/images/banner77.jpg" alt="斑道夫资格权利证书">
->>>>>>> 989de7f7bbfccbcc5887481ba68c11e236386763
 </div>
 <!-- certificate end -->
 <!-- conner start -->
@@ -87,11 +63,7 @@ unset($_smarty_tpl_vars);
 /images/conner_4.jpg" alt="测试者相见恨晚">
 	<img src="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-<<<<<<< HEAD
 /images/conner_5.jpg" alt="测试者效果图">
-=======
-/images/conner_5.jpg" alt="使用斑道夫的测试者效果图">
->>>>>>> 989de7f7bbfccbcc5887481ba68c11e236386763
 </div>
 <!-- conner end -->
 
@@ -141,7 +113,6 @@ unset($_smarty_tpl_vars);
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
 /images/conner_8.jpg" alt="学员跟着许老师大展风采">
 </div>
-<<<<<<< HEAD
 <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "footer_top.tpl", 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;
@@ -159,19 +130,12 @@ unset($_smarty_tpl_vars);
 <?php $this->assign('newslist', $this->_tpl_vars['articledata']->TakeArticleListByName('news',0,10)); ?>
 <div class="new-article">
 	<h2>最新动态</h2>
-=======
-<?php $this->assign('newslist', $this->_tpl_vars['articledata']->TakeArticleListByName('news',0,4)); ?>
-
-<div class="new-article">
-	<!-- <h2>斑道夫最新动态</h2> -->
->>>>>>> 989de7f7bbfccbcc5887481ba68c11e236386763
 	<ul>
 		<?php $_from = $this->_tpl_vars['newslist']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
     foreach ($_from as $this->_tpl_vars['newsinfo']):
 ?>
 		<li><a href="<?php echo formaturl(array('type' => 'article','siteurl' => $this->_tpl_vars['siteurl'],'name' => $this->_tpl_vars['newsinfo']->filename), $this);?>
 " title="<?php echo $this->_tpl_vars['newsinfo']->title; ?>
-<<<<<<< HEAD
 " >
 			<?php if (strlen ( $this->_tpl_vars['newsinfo']->title ) > 15): ?>
 			<?php echo $this->_tpl_vars['newsinfo']->title; ?>
@@ -193,19 +157,11 @@ unset($_smarty_tpl_vars);
     foreach ($_from as $this->_tpl_vars['linkinfo']):
 ?>
 	<a href="<?php echo $this->_tpl_vars['linkinfo']->url; ?>
-"><?php echo $this->_tpl_vars['linkinfo']->title; ?>
+" rel="nofollow"><?php echo $this->_tpl_vars['linkinfo']->title; ?>
 </a> |
 	<?php endforeach; endif; unset($_from); ?>
 <div>
 <?php endif; ?>
-=======
-" ><?php echo $this->_tpl_vars['newsinfo']->title; ?>
-</a></li>
-		<?php endforeach; endif; unset($_from); ?>
-	</ul>
-</div>
-
->>>>>>> 989de7f7bbfccbcc5887481ba68c11e236386763
 <!-- photo end -->
 <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "footer.tpl", 'smarty_include_vars' => array()));

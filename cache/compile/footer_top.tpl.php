@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25, created on 2018-03-11 17:15:54
+<?php /* Smarty version 2.6.25, created on 2018-03-15 09:17:49
          compiled from footer_top.tpl */ ?>
 <div>
 	<img src="<?php echo $this->_tpl_vars['siteurl']; ?>

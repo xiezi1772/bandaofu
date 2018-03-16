@@ -91,7 +91,7 @@
 <div class="links">
 	友情链接：
 	<{foreach from=$linklist item=linkinfo}>
-	<a href="<{$linkinfo->url}>"><{$linkinfo->title}></a> |
+	<a href="<{$linkinfo->url}>" rel="nofollow"><{$linkinfo->title}></a> |
 	<{/foreach}>
 <div>
 <{/if}>

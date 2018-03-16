@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-<?php /* Smarty version 2.6.25, created on 2018-03-11 17:31:54
-=======
-<?php /* Smarty version 2.6.25, created on 2017-12-23 09:18:55
->>>>>>> 989de7f7bbfccbcc5887481ba68c11e236386763
+<?php /* Smarty version 2.6.25, created on 2018-03-15 09:17:49
          compiled from footer.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'formaturl', 'footer.tpl', 14, false),)), $this); ?>
@@ -35,7 +31,6 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'formaturl',
 				</p>
 			</div>
 			<div class="bottom">
-<<<<<<< HEAD
 				<div class="top">
 					<a href="javascript:popup('weixin');" rel="nofollow" ><img src="<?php echo $this->_tpl_vars['siteurl']; ?>
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
@@ -49,12 +44,6 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'formaturl',
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
 /images/foot_z.jpg" alt=""></a>
 					<a href="javascript:popup('weixin');" rel="nofollow" ><img src="<?php echo $this->_tpl_vars['siteurl']; ?>
-=======
-				<a href="javascript:popup('tel');" rel="nofollow" ><img src="<?php echo $this->_tpl_vars['siteurl']; ?>
-/templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
-/images/foot_z.jpg" alt=""></a>
-				<a href="javascript:popup('weixin');" rel="nofollow" ><img src="<?php echo $this->_tpl_vars['siteurl']; ?>
->>>>>>> 989de7f7bbfccbcc5887481ba68c11e236386763
 /templets/<?php echo $this->_tpl_vars['templets']->directory; ?>
 /images/foot_y.jpg" alt=""></a>
 				</div>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25, created on 2017-12-23 11:36:05
+<?php /* Smarty version 2.6.25, created on 2018-03-15 21:07:48
          compiled from profile.tpl */ ?>
 <?php $this->assign('seotitle', $this->_tpl_vars['article']->seotitle); ?>
 <?php $this->assign('seokeywords', $this->_tpl_vars['article']->seokeywords); ?>
@@ -20,6 +20,11 @@ unset($_smarty_tpl_vars);
 
 		</article>
 		<!-- article end -->
+<?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "footer_top.tpl", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
 <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "footer.tpl", 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;

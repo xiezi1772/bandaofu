@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.25, created on 2017-12-23 09:09:46
+<?php /* Smarty version 2.6.25, created on 2018-03-15 09:17:51
          compiled from art_footer.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'formaturl', 'art_footer.tpl', 8, false),)), $this); ?>
